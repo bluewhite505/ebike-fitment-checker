@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fitment Evidence — E-bike Conversion Checker</title>
+  <meta name="description" content="Search source-linked owner reports for Bafang and CYC mid-drive conversions by bike model and year.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="logo" href="#top"><b>F</b> Fitment Evidence</a><nav><a href="#method">Method</a><a href="#about">About the data</a></nav></header>
+  <main>
+    <section class="hero" id="top"><p class="kicker">— INDEPENDENT OWNER-REPORT INDEX</p><h1>Will this mid-drive<br>fit your bike?</h1><p class="lead">Search reported Bafang and CYC installations by bike model and year—before you buy the wrong motor width, chainring or battery.</p><div class="trust"><span>✓ Source-linked</span><span>✓ No AI-generated fit claims</span><span>✓ Uncertainty shown</span></div></section>
+    <section class="checker"><div class="intro"><p class="kicker">FITMENT CHECKER · BETA</p><h2>Check the evidence</h2><p>This tool searches public owner reports. It does not certify safety, road legality or manufacturer compatibility.</p></div><div class="fields"><label>Bike brand<select id="brand"></select></label><label>Bike model<select id="model"></select></label><label>Model year<select id="year"></select></label><label>Conversion kit<select id="kit"></select></label></div><button id="check">Check reported fitment →</button></section>
+    <section id="result" class="result hidden" aria-live="polite"></section>
+    <section class="method" id="method"><p class="kicker">HOW TO READ THE RESULT</p><h2>Evidence, not a green light.</h2><div class="cards"><article><b>01</b><h3>Owner build</h3><p>A completed installation was reported. Exact year and frame size may still be missing.</p></article><article><b>02</b><h3>Modification</h3><p>The motor was installed, but spacers, grinding, chainring changes or other work were reported.</p></article><article><b>03</b><h3>Question only</h3><p>Someone asked about the combination, but we did not establish a completed installation.</p></article></div></section>
+    <section class="about" id="about"><div><p class="kicker">CURRENT COVERAGE</p><h2>16 researched records.<br>Three high-intent bike families.</h2></div><div class="numbers"><div><strong>9</strong><span>Trek records</span></div><div><strong>3</strong><span>Specialized records</span></div><div><strong>3</strong><span>Giant records</span></div></div></section>
+    <aside><strong>Important:</strong> Mechanical fit does not establish road legality or electrical safety. Verify the bicycle’s actual dimensions, the motor manufacturer’s specifications and the rules where you ride.</aside>
+  </main>
+  <footer><span class="logo"><b>F</b> Fitment Evidence</span><small>Independent research index · Beta</small></footer>
+  <script src="app.js"></script>
+</body></html>
