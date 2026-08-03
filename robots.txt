@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bluewhite505.github.io/ebike-fitment-checker/sitemap.xml

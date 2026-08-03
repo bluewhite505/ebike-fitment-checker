@@ -10,7 +10,16 @@ Static, dependency-free site prepared for GitHub Pages.
 4. Under **Build and deployment**, select **Deploy from a branch**.
 5. Select the `main` branch and `/ (root)`, then save.
 
-The site uses only `index.html`, `styles.css`, and `app.js`; no build command is required.
+No build command is required. Upload every file and all five report folders; the
+folder names are the public URLs of the indexable evidence pages.
+
+## Search indexing
+
+- `robots.txt` allows crawling.
+- `sitemap.xml` lists the homepage and all five report pages.
+- Every page has a self-referencing canonical URL.
+- Submit `https://bluewhite505.github.io/ebike-fitment-checker/sitemap.xml`
+  in Google Search Console after publishing.
 
 ## Before launch
 
